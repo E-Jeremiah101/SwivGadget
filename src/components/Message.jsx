@@ -2,7 +2,7 @@
 const Message = () => {
   return (
     <div className="fixed inline-flex bottom-15 right-15 z-90">
-      <div className="bg-[#fe6d2c] p-[90%] rounded-full text-white ">
+      <div className="bg-[#fe6d2c] p-6 rounded-full text-white ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"

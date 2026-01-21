@@ -27,14 +27,14 @@ const ProductSlider = () => {
     },
     {
       id: 3,
-      name: "BLUNT HIGH BASS SPEAKER",
+      name: "BLUNT HIGH BASS ",
       price: "₦17,600.00",
       image: speaker,
       badge: "Best Seller",
     },
     {
       id: 4,
-      name: "BLUNT WIRELESS CHARGER",
+      name: "BLUNT WIRELESS ",
       price: "₦12,500.00",
       image: earbuds,
       badge: "Best Seller",

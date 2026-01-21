@@ -6,7 +6,6 @@
  import charger from "../assets/charger.webp";
  import earbuds from "../assets/earbuds.webp";
  import {
-   ShoppingCart,
    ChevronDown,
    Search
  } from "lucide-react";
