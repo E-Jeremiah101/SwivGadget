@@ -13,7 +13,7 @@
  import AutoSlideshow from './AutoSlideshow';
  import ProductSlider from './ProductSlider';
  import ProductListGrid from './ProductListGrid';
- import Footer from './footer';
+ import Footer from './Footer';
 const HeroHeader = () => {
 
   const products = [
