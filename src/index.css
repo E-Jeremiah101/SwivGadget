@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ #root{
+  padding: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #fff;
+}
+
+.sizing{
+  color: white;
+  font-weight: 900;
+  font-family:"Zalando Sans Expanded" ;
+}
+.text-clean{
+  text-decoration: none;
+  color: white;
+}
+.text-clean-mobile{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+  /* Add to your global CSS */
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+}
+
+.transition-none {
+  transition: none;
+}
+
+/* Responsive container widths */
+@media (max-width: 640px) {
+  .container {
+    max-width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+/* Ensure images maintain aspect ratio */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Touch-friendly tap targets */
+@media (max-width: 768px) {
+  button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Prevent layout shifts */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Smooth hover effects */
+.group:hover .group-hover\:scale-105 {
+  transform: scale(1.05);
+}
+.img-css{
+ height: 3vh;
+
+}
